@@ -4,7 +4,7 @@ INTRODUCTION:
 
 Unfortunately, car accidents happen.
 
-Would it be possible to understand/predict the severity of an eventual accident if ever happening? 
+Would it be possible to understand/predict the severity of an eventual car driver accident if ever happening? 
 
 Such a predictive model could be interesting for instance for:
   - inssurance companies to set a final price for an inssurance.
@@ -18,7 +18,7 @@ We will be exploring the feasibility of creating such a predictive model based o
   - Car specifications (Engine capacity, driver side, etc)
   - Parameters of the accident (speed, point of impact, etc.)
   
-Based on those variables the model would predict if ever having an accident if it's going to be "fatal", "Serious" or "Slight" a certain probability (multiclass classification problem). We could also for simplicity, make the model to assist a binary classification model where based on the same variables we would be looking to predict between "fatal accidents" and "serious/slight" accidents.
+Based on those variables the model would predict if a driver ever having an accident with an impact if it's going to be "fatal", "Serious" or "Slight" a certain probability (multiclass classification problem). We could also for simplicity, make the model to assist a binary classification model where based on the same variables we would be looking to predict between "fatal accidents" and "serious/slight" accidents.
 
 To proceed we will be using the database published on Kaggle.com called "UK Accidents 10 years history with many variables" that collects accidents that took place from 2005-2014 in UK roads. Data are stored in 3 tables: accidents, vehicles and casualties and can be found in the following link:
 https://www.kaggle.com/benoit72/uk-accidents-10-years-history-with-many-variables
